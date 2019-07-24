@@ -1,0 +1,91 @@
+body {
+  text-align: center;
+}
+.container{
+  width: 80%;
+  margin: 0px auto;
+}
+.top_banner {
+    background: linear-gradient(to bottom, transparent, white),
+     url(images/AdobeStock_97040953.jpeg);
+    margin: 0 auto;
+    width: 100%;
+    background-size: cover;
+    padding: 75px 0px 6px 0px;
+    height: 300;
+    text-shadow: 1px;
+    text-align: buttom;
+}
+.top_banner h2 {
+  margin-top: 135px;
+}
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  line-height: 14px;
+}
+h2 {
+  font-size: 36px;
+}
+h1{
+  font-size: 44px;
+}
+.link ul li a{
+  font-size: 50px;
+  color:black;
+  padding: 14px;
+}
+.link ul li{
+  display:inline-block;
+}
+.link {
+    text-align: center;
+}
+ul {
+    padding-left: 0px;
+}
+.image_round {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  border: solid 2px black;
+  box-shadow: 5px 5px 10px black;
+  margin-top: -60px;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 16px;
+
+}
+a{
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 22px;
+  text-decoration: none;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+
+  }
+  h1 {
+  line-height: 46px;
+}
+.image_round {
+margin-top: 0px;
+}
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
